@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<title>Cancun Scape</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<header>
+
+<?php
+include 'navbar.php';
+
+?>
+</header>
+
 <style>
 .mySlides {display:none;}
 </style>
 <body>
-
 
 <div class="w3-content w3-display-container">
 
