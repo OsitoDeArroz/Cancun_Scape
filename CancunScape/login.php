@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Cancun Scape</title>
+  <title> Iniciar sesion </title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,13 +11,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-    <link href="/styles/style.css" rel="stylesheet"">
+    <link href="/styles/style.css" rel="stylesheet">
 
 </head>
 
 <body>
   <header>
+    <?php
+    include 'navbar.php';
+    ?>
     <!-- place navbar here -->
   </header>
   <main>
@@ -33,6 +35,8 @@
         <label for="floatingPassword">Contraseña</label>
       </div>
       <input type="submit" class="btn btn-outline-dark" value="Iniciar sesión">
+     <a  href="registro.php" class="btn btn-outline-dark">Crear cuenta nueva</a> 
+
     </form>
   </main>
   <footer>
